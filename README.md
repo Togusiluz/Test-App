@@ -2,8 +2,7 @@
 
 This project is a little demo project. It's a spring boot rest controller that provides a method to retrieve prices from
 a MongoDB. An extra method to insert prices in the DB is also provided for test purposes, even if it's something that
-shouldn't be running in a final product. Along this readme file, you can find a folder with the complete project, ready
-to be open with your IDE of choose.
+shouldn't be running in a final product.
 
 Running the app will be covered in three sections:
 

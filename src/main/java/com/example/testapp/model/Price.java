@@ -28,9 +28,11 @@ public class Price {
     @Schema(description = "Brand identifier", example = "1")
     private Long brandId;
 
+    @JsonProperty("start_date")
     @Schema(description = "Start date time for the price to be effective", example = "2020-06-15T16:00:00")
     private LocalDateTime startDate;
 
+    @JsonProperty("end_date")
     @Schema(description = "Final date time for the price to be effective", example = "2020-06-15T16:00:00")
     private LocalDateTime endDate;
 

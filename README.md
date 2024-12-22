@@ -1,6 +1,6 @@
 # Test-App
 
-This project is a little demo project. It's a spring boot rest controller that provides a method to retrieve prices from
+This is a little demo project. It's a spring boot rest controller that provides a method to retrieve prices from
 a MongoDB. An extra method to insert prices in the DB is also provided for test purposes, even if it's something that
 shouldn't be running in a final product.
 
